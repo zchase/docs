@@ -1,12 +1,25 @@
 pulumi-convert {
 
-    #editors {
-        @apply flex;
+    select {
+        @apply p-2 mx-2 rounded;
     }
 
-    #editor-input, #editor-output {
-        width: 800px !important;
-        height: 600px !important;
-        border: 1px solid grey !important;
+    #editors {
+        @apply flex flex-col;
+
+        .CodeMirror {
+            @apply mb-4 font-mono text-sm rounded shadow-lg;
+        }
+
+        @screen md {
+            @apply flex-row;
+
+            .CodeMirror {
+
+                ~ .CodeMirror {
+                    @apply ml-4;
+                }
+            }
+        }
     }
 }

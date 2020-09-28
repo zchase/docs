@@ -29,42 +29,6 @@
 
     <pulumi-root></pulumi-root>
 
-    <pulumi-chooser type="language" options="typescript,python,go,csharp,fsharp,visualbasic"></pulumi-chooser>
-
-        <pulumi-choosable type="language" value="typescript">
-            <pre><code></code>I am some TypeScript.</pre>
-
-            <!-- Nested chooser with choosables. -->
-            <pulumi-chooser type="os" options="macos,windows"></pulumi-chooser>
-
-            <pulumi-choosable type="os" value="macos">
-                Some info on MacOS.
-            </pulumi-choosable>
-
-            <pulumi-choosable type="os" value="windows">
-                Some info on Windows.
-            </pulumi-choosable>
-
-        </pulumi-choosable>
-
-        <pulumi-choosable type="language" value="python">
-            <pre><code></code>I am some Python.</pre>
-        </pulumi-choosable>
-
-        <pulumi-choosable type="language" value="go">
-            <pre><code></code>I am some Go.</pre>
-        </pulumi-choosable>
-
-        <pulumi-choosable type="language" value="csharp">
-            <pre><code></code>I am some C#.</pre>
-        </pulumi-choosable>
-
-        <pulumi-choosable type="language" value="fsharp">
-            <pre><code></code>I am some F#.</pre>
-        </pulumi-choosable>
-
-        <pulumi-choosable type="language" value="visualbasic">
-            <pre><code></code>I am some VB.</pre>
-        </pulumi-choosable>
+    <pulumi-convert from="tf" endpoint="https://1qm03yusb2.execute-api.us-west-2.amazonaws.com/stage"></pulumi-convert>
 </body>
 </html>
