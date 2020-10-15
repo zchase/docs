@@ -18,7 +18,7 @@ hero:
 main:
   title: Azure Infrastructure as Code Workshop
   sortable_date: 2020-07-08T14:30:00-07:00
-  duration: 2 1/2 hours
+  duration: 2 hours
   datetime: WED, JUL 8, 2020 2:30 PM PDT
   description: >
     The hardest part of Kubernetes is setting up the infrastructure: clusters,
